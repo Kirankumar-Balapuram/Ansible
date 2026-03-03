@@ -1,6 +1,6 @@
 - name: Hello world
   hosts: web
   tasks:
-  -  name: print hellow world
-     ansinle.builin.debug:
-       msg: "Hello world!!!"
+  - name: print hello world
+    ansinle.builin.debug:
+      msg: "Hello world!!!"
