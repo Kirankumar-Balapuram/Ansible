@@ -8,7 +8,7 @@
   vars_prompt:
   - name: NAME
     prompt: please enter name
-    priate: false
+    private: false
   tasks:
   - name: print name
     vars:
