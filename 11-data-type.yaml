@@ -13,7 +13,7 @@
     - Shell
     - Ansible
   tasks:
-  - name: print variaables
+  - name: print variables
     ansible.builting.debug:
       msg: |
         program: {{ PROGRAM }}
